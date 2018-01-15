@@ -6,7 +6,6 @@
   "scripts": {
     "build-icons": "node build.js",
     "prepublish": "mkdir -p dist && npm run build-icons && babel src --out-dir dist",
-    "postinstall": "napa danleech/simple-icons#gh-pages",
     "docs": "webpack -p",
     "start": "webpack-dev-server",
     "test": "ava"
