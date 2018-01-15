@@ -19,6 +19,7 @@ const ICONS = [
   'tumblr.svg',
   'behance.svg',
   'soundcloud.svg',
+  'whatsapp.svg',
 ]
 
 const files = fs.readdirSync(DIR)
@@ -55,4 +56,3 @@ const paths = createPaths(files)
 const js = `module.exports = ${JSON.stringify(paths)}`
 
 fs.writeFileSync('src/paths.js', js)
-
