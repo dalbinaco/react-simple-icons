@@ -20,6 +20,7 @@ const ICONS = [
   'behance.svg',
   'soundcloud.svg',
   'whatsapp.svg',
+  'medium.svg'
 ]
 
 const files = fs.readdirSync(DIR)
