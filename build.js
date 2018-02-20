@@ -4,7 +4,7 @@ const fs = require('fs')
 const path = require('path')
 const cheerio = require('cheerio')
 
-const DIR = path.join(__dirname, 'node_modules', 'simple-icons#gh-pages', 'icons')
+const DIR = path.join(__dirname, 'node_modules', '@jxnblk/simple-icons', 'icons')
 
 const ICONS = [
   'twitter.svg',
@@ -57,3 +57,4 @@ const paths = createPaths(files)
 const js = `module.exports = ${JSON.stringify(paths)}`
 
 fs.writeFileSync('src/paths.js', js)
+

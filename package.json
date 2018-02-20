@@ -1,18 +1,43 @@
 {
-  "name": "react-simple-icons",
-  "version": "1.0.0-beta.4",
-  "description": "React component for social icons from https://simpleicons.org",
-  "main": "dist/Icon.js",
-  "scripts": {
-    "build-icons": "node build.js",
-    "prepublish": "mkdir -p dist && npm run build-icons && babel src --out-dir dist",
-    "docs": "webpack -p",
-    "start": "webpack-dev-server",
-    "test": "ava"
+  "_from": "react-simple-icons@latest",
+  "_id": "react-simple-icons@1.0.0-beta.5",
+  "_inBundle": false,
+  "_integrity": "sha1-sCK622vYBgqz7WzzzlA+MApwY1Y=",
+  "_location": "/react-simple-icons",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-simple-icons@latest",
+    "name": "react-simple-icons",
+    "escapedName": "react-simple-icons",
+    "rawSpec": "latest",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
-  "keywords": [],
-  "author": "Brent Jackson",
-  "license": "MIT",
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-simple-icons/-/react-simple-icons-1.0.0-beta.5.tgz",
+  "_shasum": "b022badb6bd8060ab3ed6cf3ce503e300a706356",
+  "_spec": "react-simple-icons@latest",
+  "_where": "/home/mateus/labs/luiz-octavio",
+  "author": {
+    "name": "Brent Jackson"
+  },
+  "ava": {
+    "require": [
+      "babel-register"
+    ],
+    "babel": "inherit"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@jxnblk/simple-icons": "^1.0.0"
+  },
+  "deprecated": false,
+  "description": "React component for social icons from https://simpleicons.org",
   "devDependencies": {
     "ava": "^0.16.0",
     "babel-cli": "^6.11.4",
@@ -23,17 +48,22 @@
     "babel-register": "^6.14.0",
     "cheerio": "^0.20.0",
     "enzyme": "^2.4.1",
-    "napa": "^2.3.0",
     "react": "^15.3.1",
     "react-addons-test-utils": "^15.3.1",
     "react-dom": "^15.3.1",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.14.1"
   },
-  "ava": {
-    "require": [
-      "babel-register"
-    ],
-    "babel": "inherit"
-  }
+  "keywords": [],
+  "license": "MIT",
+  "main": "dist/Icon.js",
+  "name": "react-simple-icons",
+  "scripts": {
+    "build-icons": "node build.js",
+    "docs": "webpack -p",
+    "prepublish": "mkdir -p dist && npm run build-icons && babel src --out-dir dist",
+    "start": "webpack-dev-server",
+    "test": "ava"
+  },
+  "version": "1.0.0-beta.5"
 }
