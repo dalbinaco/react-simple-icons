@@ -34,7 +34,8 @@
   },
   "bundleDependencies": false,
   "dependencies": {
-    "@jxnblk/simple-icons": "^1.0.0"
+    "@jxnblk/simple-icons": "^1.0.0",
+    "simple-icons": "^1.3.4"
   },
   "deprecated": false,
   "description": "React component for social icons from https://simpleicons.org",
